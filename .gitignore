@@ -1,0 +1,9 @@
+
+/log
+/tmp
+/public/system
+/spec/tmp
+/node_modules
+/.idea/
+
+
