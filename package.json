@@ -1,0 +1,18 @@
+{
+  "name": "javascript Playground",
+  "version": "1.0.0",
+  "description": "this is a playground project hosted in github for testing propouses all example added there are well tested",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    +     "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Esmeraldi Bejolli",
+  "license": "MIT free to change, use for comercial and non comerical",
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "lodash": "^4.17.5"
+  }
+}
