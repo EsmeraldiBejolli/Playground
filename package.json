@@ -1,18 +1,31 @@
 {
-  "name": "javascript Playground",
+  "name": "Javascript-Playground",
   "version": "1.0.0",
   "description": "this is a playground project hosted in github for testing propouses all example added there are well tested",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    +     "build": "webpack"
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Esmeraldi Bejolli",
   "license": "MIT free to change, use for comercial and non comerical",
   "devDependencies": {
-    "webpack": "^4.0.1",
+    "@babel/plugin-proposal-export-default": "^7.0.0-beta.32",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.5",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
     "webpack-cli": "^2.0.9",
-    "lodash": "^4.17.5"
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta.2"
   }
 }
